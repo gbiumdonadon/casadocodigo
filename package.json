@@ -1,0 +1,29 @@
+{
+  "name": "casa-do-codigo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore *.marko.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "marko": "^4.23.9",
+    "sqlite": "^4.0.15",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbiumdonadon/casadocodigo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gbiumdonadon/casadocodigo/issues"
+  },
+  "homepage": "https://github.com/gbiumdonadon/casadocodigo#readme",
+  "description": ""
+}
